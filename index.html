@@ -51,7 +51,7 @@
                   <a href="https://www.facebook.com/Exorcist-Shop-103611705440244" target="_blank"><img class="fblogo" src="IMG/LOGO.png" width="250"></a>
                  </td>
                  <td width="1">
-                   <img class="br30" src="IMG/banner.jpg" width="700">
+                   <a href="https://www.facebook.com/103611705440244/photos/a.104299978704750/104299825371432" target="_blank"><img class="br30" src="IMG/banner.jpg" width="700"></a>
                   </td>
             </tr>
         </table>
@@ -75,5 +75,34 @@
     
     <!--  -->
     </center>
+    
+    <!-- Messenger ปลั๊กอินแชท Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your ปลั๊กอินแชท code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "103611705440244");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
 </body>
 </html>

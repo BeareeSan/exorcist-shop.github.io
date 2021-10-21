@@ -1,0 +1,27 @@
+body {
+    background-color: #9cc0ff;
+    font-family: arial;
+}
+iframe {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+.ban-ner {
+    border: 3px solid #657eab;
+}
+.btn-refresh {
+  background-color: #657eab;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px 10px 10px 10px;
+  transition: 0.3s;
+  width: 80px;
+}
+.btn-refresh:hover {
+  background-color: white;
+  color: #657eab;
+  transition: 0.2s;
+}

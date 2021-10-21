@@ -3,13 +3,26 @@ body {
     color: white;
     font-family: arial;
 }
+a {
+  text-decoration: none;
+}
+iframe {
+  border: none;
+}
 .shadow-box {
     box-shadow: 10px 10px 5px gray;
 }
 
 .br30 {
     border-radius: 30px 30px 30px 30px;
+    transition: 0.5s;
 }
+.br30:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+
 .br360 {
     border-radius: 360px 360px 360px 360px;
 }
@@ -26,14 +39,52 @@ body {
 }
 .fblogo:hover {
     transition: 0.5s;
-    opacity: 0.8;
+    opacity: 0.5;
+}
+
+.hb {
+  transition: 0.3s;
+}
+.hb:hover {
+  transition: 0.3s;
+  height: 110px;
+  width: 220px;
 }
 
 
+.btn-menu {
+  background-color: #89cbff;
+  color: white;
+  padding: 20px 40px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 10px 0px 10px 0px;
+  transition: 0.3s;
+}
+.btn-menu:hover {
+  background-color: white;
+  color: #89cbff;
+  transition: 0.2s;
+}
 
+b.active {
+  cursor: no-drop;
+}
 
-
-
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #89cbff;
+   color: white;
+   text-align: center;
+   box-shadow: 0px -3px 5px gray;
+   padding: 10px;
+}
+.ma-in {
+  border-radius: 20px 20px 20px 20px;
+}
 
 
 
@@ -57,6 +108,8 @@ $@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframe
   font-family: 'Raleway', sans-serif;
 color: #000;		
 }
+
+
 
 
 

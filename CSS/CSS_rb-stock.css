@@ -17,3 +17,13 @@ a {
     text-align: center;
     
 }
+
+.stockbd {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #657eab;
+}
+
+td {
+    background-color: white;
+    color: white;
+}
